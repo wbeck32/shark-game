@@ -4,3 +4,4 @@ This is an attempt to refactor the [old-school shark game](http://cirri.al/shark
 
 ## TODO
 - simplify and consolidate menus
+- set up a way to save data from browser to browser

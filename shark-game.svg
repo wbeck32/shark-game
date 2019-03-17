@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?><!DOCTYPE svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="750px" height="528px" viewBox="0.00 0.00 362.62 274.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 270)">
+<title>system</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-270 358.622,-270 358.622,4 -4,4"></polygon>
+<!-- producers -->
+<g id="node1" class="node">
+<title>producers</title>
+<polygon fill="none" stroke="#000000" points="106.364,-169.5 106.364,-265.5 248.258,-265.5 248.258,-169.5 106.364,-169.5"></polygon>
+<text text-anchor="middle" x="177.311" y="-252.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">producers</text>
+<polyline fill="none" stroke="#000000" points="106.364,-245.5 248.258,-245.5 "></polyline>
+<text text-anchor="start" x="114.364" y="-232.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ creatureProduced : any</text>
+<text text-anchor="start" x="114.364" y="-220.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ currentCost : _Component [ ]</text>
+<text text-anchor="start" x="114.364" y="-208.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ description : any</text>
+<text text-anchor="start" x="114.364" y="-196.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ task : any</text>
+<polyline fill="none" stroke="#000000" points="106.364,-189.5 248.258,-189.5 "></polyline>
+<text text-anchor="middle" x="177.311" y="-176.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000"> </text>
+</g>
+<!-- _Component -->
+<g id="node3" class="node">
+<title>_Component</title>
+<polygon fill="none" stroke="#000000" points="0,-.5 0,-132.5 354.622,-132.5 354.622,-.5 0,-.5"></polygon>
+<text text-anchor="middle" x="177.311" y="-119.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">_Component</text>
+<polyline fill="none" stroke="#000000" points="0,-112.5 354.622,-112.5 "></polyline>
+<text text-anchor="start" x="8" y="-99.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ id : string</text>
+<polyline fill="none" stroke="#000000" points="0,-92.5 354.622,-92.5 "></polyline>
+<text text-anchor="start" x="8" y="-79.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ classInfo() : _ClassInfo</text>
+<text text-anchor="start" x="8" y="-67.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ destroy()</text>
+<text text-anchor="start" x="8" y="-55.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ error(data : errorParam)</text>
+<text text-anchor="start" x="8" y="-43.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ init(conf : object)</text>
+<text text-anchor="start" x="8" y="-31.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ off(state : string, behaviorId : string)</text>
+<text text-anchor="start" x="8" y="-19.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ on(state : string, action : function, useCoreAPI : boolean, isCore : boolean) : string</text>
+<text text-anchor="start" x="8" y="-7.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">+ require(id : string) : _Component</text>
+</g>
+<!-- producers&#45;&gt;_Component -->
+<g id="edge1" class="edge">
+<title>producers-&gt;_Component</title>
+<path fill="none" stroke="#000000" d="M170.9698,-169.3075C170.6059,-157.6555 170.485,-145.0007 170.6069,-132.6819"></path>
+<text text-anchor="middle" x="178.1069" y="-135.6819" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">0..*</text>
+</g>
+<!-- producers&#45;&gt;_Component -->
+<g id="edge2" class="edge">
+<title>producers-&gt;_Component</title>
+<path fill="none" stroke="#000000" d="M183.6522,-169.3075C183.9166,-160.8416 184.0527,-151.8463 184.0606,-142.8351"></path>
+<polygon fill="none" stroke="#000000" points="187.56,-142.6661 184.0151,-132.6819 180.5601,-142.6975 187.56,-142.6661"></polygon>
+</g>
+<!-- basic -->
+<g id="node2" class="node">
+<title>basic</title>
+<polygon fill="none" stroke="#000000" points="266.311,-187.5 266.311,-247.5 320.311,-247.5 320.311,-187.5 266.311,-187.5"></polygon>
+<text text-anchor="middle" x="293.084" y="-234.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000">basic</text>
+<polyline fill="none" stroke="#000000" points="266.311,-227.5 319.857,-227.5 "></polyline>
+<text text-anchor="middle" x="293.084" y="-214.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000"> </text>
+<polyline fill="none" stroke="#000000" points="266.311,-207.5 319.857,-207.5 "></polyline>
+<text text-anchor="middle" x="293.084" y="-194.5" font-family="Bitstream Vera Sans" font-size="10.00" fill="#000000"> </text>
+</g>
+<!-- basic&#45;&gt;_Component -->
+<g id="edge3" class="edge">
+<title>basic-&gt;_Component</title>
+<path fill="none" stroke="#000000" d="M271.1473,-187.4039C266.5977,-181.2929 261.8205,-174.9242 257.311,-169 250.3145,-159.8086 242.9185,-150.1962 235.5624,-140.6984"></path>
+<polygon fill="none" stroke="#000000" points="238.2977,-138.5142 229.4023,-132.759 232.7672,-142.8053 238.2977,-138.5142"></polygon>
+</g>
+</g>
+</svg>
